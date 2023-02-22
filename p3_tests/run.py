@@ -4,7 +4,7 @@ import json
 import glob
 import os
 
-folder_path = "" #Change to your absolute folder path to this folder. 
+folder_path = "" # Change to your absolute folder path to this folder. 
 
 tests = glob.glob("*.jeff")
 print("tests filenames: ")
