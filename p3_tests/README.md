@@ -7,8 +7,10 @@
 
 ### What To Do
 <ul>
-    <li> In run.py, change the variable "folder_path" to the file path to this folder on your computer
+    <li> In run.py, change the variable "folder_path" to the absolute file path to *THIS* folder on your computer
+    <li> run the makefile to test all of your ".jeff" files
 </ul>
+
 ### Makefile options:
 <ul>
     <li> make all
