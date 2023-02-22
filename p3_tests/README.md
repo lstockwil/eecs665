@@ -4,6 +4,9 @@
     <li> Used Python to automatically pull the expected output cases from Oracle 3 into the testing directory
     <li> All you need to add is your own additional ".jeff" files for testing, and run "make" or "make all"
 </ul>
+### What To DO
+<ul>
+    <li> In run.py, change the variable "folder_path" to the file path to this folder on your computer
         
 ### Makefile options:
 <ul>
