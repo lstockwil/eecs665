@@ -1,4 +1,4 @@
-## Oracle 3 Modified Test Folder
+## Oracle 3 Optimized Test Folder
 ### Makefile options:
 <ul>
     <li> make all
