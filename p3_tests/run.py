@@ -4,6 +4,8 @@ import json
 import glob
 import os
 
+folder_path = "" #Change to your absolute folder path to this folder. 
+
 tests = glob.glob("*.jeff")
 print("tests filenames: ")
 print(tests)
@@ -14,7 +16,7 @@ for file_name_jeff in tests:
 	print(name)
 
 	#make curl request and store output in file called {name}.json
-	command = "curl -F \"input=@/Users/luca/Desktop/EECS 665 Project 3/p3/p3_tests/" + file_name_jeff + "\" https://compilers.cool/oracles/o3/api.php >" + name + ".json"
+	command = "curl -F \"" + folder_path + "/" + file_name_jeff + "\" https://compilers.cool/oracles/o3/api.php >" + name + ".json"
 
 	os.system(command)
 
